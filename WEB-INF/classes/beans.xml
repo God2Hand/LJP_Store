@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<!-- <bean id="ProductDao" class="ljp.dao.impl.ProductDaoHibImpl"/> -->
+	<bean id="ProductDao" class="ljp.dao.impl.ProductDaoImpl"/>
+	<bean id="UserDao" class="ljp.dao.impl.UserDaoImpl"/>
+	<bean id="CategoryDao" class="ljp.dao.impl.CategoryDaoImpl"/>
+	<bean id="OrderDao" class="ljp.dao.impl.OrderDaoImpl"/>
+	<bean id="AdminDao" class="ljp.dao.impl.AdminDaoImpl"/>
+	
+	<bean id="ProductService" class="ljp.service.impl.ProductServiceImpl"/>
+	<bean id="UserService" class="ljp.service.impl.UserServiceImpl"/>
+	<bean id="CategoryService" class="ljp.service.impl.CategoryServiceImpl"/>
+	<bean id="OrderService" class="ljp.service.impl.OrderServiceImpl"/>
+	<bean id="AdminService" class="ljp.service.impl.AdminServiceImpl"/>
+</beans>
